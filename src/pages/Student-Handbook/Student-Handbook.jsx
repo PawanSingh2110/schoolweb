@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import "./StudentHandbook.css";
+
 
 const StudentHandbook = () => {
   return (
