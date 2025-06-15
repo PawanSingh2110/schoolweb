@@ -1,0 +1,49 @@
+@media (min-width: 1400px) {
+    body.tm-container-1340px .container {
+        max-width: 1340px;
+        width: 1340px;
+    }
+}
+.accordion{
+    background-color: #f1f1f1;
+}
+.tm-accordion .accordion-item:first-child {
+    border-radius: 15px 15px 0 0;
+}
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+}
+.accordion-body {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+section > .container, section > .container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.tm-accordion.accordion-theme-colored1 .accordion-item {
+    border-color: #202C45;
+}
+
+.tm-accordion .accordion-item .accordion-collapse {
+    border: none;
+}
+
+.tm-accordion .accordion-item .accordion-header {
+    background-color: #fff;
+    border-top: none;
+}
+.tm-accordion .accordion-item .accordion-header .accordion-button {
+    border: none;
+}
+
+.tm-accordion.accordion-classic.accordion-theme-colored1 .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    background-color: #202C45;
+    color: #fff;
+}

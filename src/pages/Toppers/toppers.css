@@ -1,0 +1,20 @@
+.line-bottom {
+    position: relative;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 1400px) {
+    body.tm-container-1340px .container {
+        max-width: 1340px;
+        width: 1340px;
+    }
+}
+
+section > .container, section > .container-fluid {
+    padding-top: 100px;
+    
+    padding-bottom: 100px;
+}
+
+

@@ -1,0 +1,29 @@
+.image-container img {
+    width: 100%;
+  }
+  .img_content {
+    text-align: center;
+  }
+  form{
+      width: 35vw;
+      border: 3px solid black;
+      border-radius: 10px;
+  }
+  input {
+      border: 1px solid rgb(228, 224, 224);
+  }
+  textarea{
+    border: 1px solid rgb(228, 224, 224);
+
+  }
+  input:focus{
+    box-shadow: inset 1px 0px 1px 1px rgb(44, 44, 163);
+    border: 1px solid rgb(28, 28, 68);
+  }
+  form h2{
+    font-weight: 600;
+  }
+button{
+  border-radius: 30px;
+  background-color: rgb(32,44,69);
+}
