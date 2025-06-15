@@ -22,7 +22,6 @@ import Cabinet from "./pages/Cabinet/cabinet";
 import Escholar from "./pages/Escholar/escholar";
 import EventClander from "./pages/Event-Calender/EventClander"
 import Sports from "./pages/Student-life/Sports";
-import StudentHandbook from "./pages/Student-Handbook/Student-Handbook";
 import Academics from "./pages/Academics/Academics";
 import CoCurricularPage from "./pages/Student-life/Co-Curricular/CoCurricularPage";
 import SocioPage from "./pages/Student-life/Socio-Cultural Dev/SocioPage";
@@ -56,7 +55,6 @@ function App() {
           <Route path="/Cabinet" element={<Cabinet />} />
           <Route path="/EventClander" element={<EventClander />} />
           <Route path="/Sports" element={<Sports />} />
-          <Route path="/Student-Handbook" element={<StudentHandbook />} />
           <Route path='/CoCurricularPage' element={<CoCurricularPage />} />
           <Route path="/SocioPage" element={<SocioPage />} />
           <Route path = "/Toppers" element={<Toppers />} />
